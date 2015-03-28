@@ -9,11 +9,14 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bbc-id.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
 
     <nav class="bbcid-styleguide-nav">
       iD StyleGuide
+      <a href="index.html">Patterns</a></li>
+      <a href="demos.html">Demos</a></li>
     </nav>
 
 <div class="bbcid-styleguide-container">
@@ -27,15 +30,13 @@
   -->
 
   <section class="bbcid-styleguide-section">
-      <h1>iD Style Guide</h1>
-
+      <h1>BBC iD - Styleguide</h1>
       <h2>Index</h2>
       <div class="bbcid-styleguide-menu">
       <h3 class="bbcid-styleguide-menu-header">Foundation</h3>
       <ul class="bbcid-styleguide-menu-list">
         <li><a href="#typography">Typography</a></li>
         <li><a href="#colours">Colours</a></li>
-        <li><a href="#grid">Grid</a></li>
       </ul>
       <h3 class="bbcid-styleguide-menu-header">Layout</h3>
       <ul class="bbcid-styleguide-menu-list">
@@ -52,18 +53,13 @@
         <li><a href="#dropdown">Text Dropdown</a></li>
       </ul>
     </div>
-
-<h2>Pages</h2>
-<ul>
-    <li><a href="index.html">Patterns</a><br>
-    <li><a href="demos.html">Demos</a>
-</ul>
-
-<p>The Github repo for this project is here: <a href="https://github.com/bbc/idstyleguide">https://github.com/bbc/idstyleguide</a></p>
-
-
-
-</section>
+    <h2>Pages</h2>
+    <ul>
+        <li><a href="index.html">Patterns</a><br>
+        <li><a href="demos.html">Demos</a>
+    </ul>
+    <a href="#about">About this Styleguide</a>
+  </section>
 
 
 <!-- 
@@ -87,7 +83,7 @@
     </div>
 
     <div class="bbcid-styleguide-notes">
-      <h3>Show styles</h3>
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
     <div>
 <code>
 <pre>
@@ -124,7 +120,7 @@ margin-bottom: 8px
 
     
     <div class="bbcid-styleguide-notes">
-      <h3>Show styles</h3>
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
       <div>
         <code>
           <pre>
@@ -158,7 +154,7 @@ margin-bottom: 12px;
     </div>
     
     <div class="bbcid-styleguide-notes">
-      <h3>Show styles</h3>
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
       <div>
 <code>
 <pre>
@@ -192,7 +188,7 @@ a:hover - text-decoration: underline
     </div>
     
     <div class="bbcid-styleguide-notes">
-      <h3>Show styles</h3>
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
       <div>
 <code>
 <pre>
@@ -311,7 +307,7 @@ margin-bottom: 16px
 
  <!-- Notes -->
  <div class="bbcid-styleguide-notes">
-  <h3>Show styles</h3>
+  <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
   <div>    
 <code>
 <pre>
@@ -400,7 +396,7 @@ height: 66px
   </div>
 
 <div class="bbcid-styleguide-notes">
-  <h3>Show styles</h3>
+  <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
   <div>
 <code>
 <pre>
@@ -471,7 +467,7 @@ margin-right: <strong>16px;</strong>
 
 <!-- 2 column content notes -->
   <div class="bbcid-styleguide-notes">
-    <h3>Show styles</h3>
+    <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
     <div>
 <code>
 <pre>
@@ -543,7 +539,7 @@ padding-right: <strong>16px;</strong>
 <!-- 2 column info notes -->
 
 <div class="bbcid-styleguide-notes">
-  <h3>Show styles</h3>
+  <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
   <div>
 <code>
 <pre>
@@ -637,7 +633,7 @@ float: right
 
 
 <div class="bbcid-styleguide-notes">
-  <h3>Show styles</h3>
+  <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
   <div>
     
 <code>
@@ -698,7 +694,7 @@ max-width: 252px
   <!-- INPUTS: NOTES -->
 
     <div class="bbcid-styleguide-notes">
-      <h3>Show styles</h3>
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
       <div>
           
 <code>
@@ -745,7 +741,7 @@ text-align: center
 
 
 <div class="bbcid-styleguide-notes">
-  <h3>Show styles</h3>
+  <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
   <div>
     
         <code>
@@ -800,7 +796,7 @@ padding: 13px 16px 12px
     </div>
 
     <div class="bbcid-styleguide-notes">
-      <h3>Show styles</h3>
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
       <div>
 
 <code>
@@ -848,7 +844,23 @@ padding-left: 16px
       <input class="text" autocomplete="off" name="unique" id="bbcid_unique" value="example content" type="text">
     </div>
 
-    
+    <div class="bbcid-styleguide-notes">
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
+      <div>
+<code>
+<pre>
+<strong>Sizing</strong>
+Use input sizing as above, plus:
+background-image: url("../img/spinner_20px.gif");
+background-repeat: no-repeat;
+background-position: 220px 10px;
+</pre>
+</code>
+      </div>
+    </div>
+
+
+
     <h4>Validated State:</h4>
 
     <div class="bbcid-field-container unique-container valid">
@@ -856,10 +868,24 @@ padding-left: 16px
       <input class="text" autocomplete="off" name="unique" id="bbcid_unique" value="example content" type="text">
     </div>
 
+    <div class="bbcid-styleguide-notes">
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
+      <div>
+<code>
+<pre>
+<strong>Sizing</strong>
+Use input sizing as above, plus:
+border: 2px solid #169009;
+background-image: url("path/to/sprite.png");
+background-repeat: no-repeat;
+background-position: 216px -785px;
+</pre>
+</code>
+     </div>
+   </div>
+
 
 	</form>
-
-
 
 
 
@@ -887,7 +913,7 @@ padding-left: 16px
   </div>
 
   <div class="bbcid-styleguide-notes">
-    <h3>Show styles</h3>
+    <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
     <div>
 <code>
 <pre>
@@ -926,7 +952,7 @@ padding-left: 10px
   </div>
 
   <div class="bbcid-styleguide-notes">
-    <h3>Show styles</h3>
+    <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
     <div>
 <code>
 <pre>
@@ -1037,7 +1063,7 @@ background-color: #005383
 
    <!-- Notes -->
    <div class="bbcid-styleguide-notes">
-    <h3>Show styles</h3>
+    <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
     <div>
 <code>
 <pre>
@@ -1086,7 +1112,7 @@ padding-left: 22px
 
     <!-- Notes -->
     <div class="bbcid-styleguide-notes">
-      <h3>Show styles</h3>
+      <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
       <div>
 <code>
 <pre>
@@ -1129,7 +1155,7 @@ font-weight: bold
   </div>
 
   <div class="bbcid-styleguide-notes">
-    <h3>Show styles</h3>
+    <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
     <div>
 <code>
 <pre>
@@ -1182,29 +1208,32 @@ font-weight: Regular
 
   <!-- Notes -->
   <div class="bbcid-styleguide-notes">
-  <h3>Show styles</h3>
+  <h3>Show styles <span class="fa fa-toggle-down"></span></h3>
   <div>
 <code>
 <pre>Use standard type styles from <a href="#typography">typography</a> section.</pre>
 </code>
   </div>
 </div>
-
-
-
-
 </section>
+
+  <section id="about" class="bbcid-styleguide-section grid-container">
+    <h2>About this styleguide</h2>
+    <p>The purpose of the styleguide is to provide both a reference source for developers when constructing form and message interfaces, and a 'playground' for designers wishing to see their designs working in a live, responsive context.</p>
+    <p><strong>Note:</strong> This guide is not intended to be a source for production code. CSS specifications are expressed within the 'show styles' panel in each section.</p>
+    <p><a href="https://github.com/bbc/idstyleguide">View the Github Repo</a></p>
+  </section>
 
 
 </div> <!-- / id_container -->
 
 
-<!-- 
+        <!-- 
 
-    SCRIPTS 
+            SCRIPTS 
 
 
--->
+        -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="js/vendor/jquery-ui.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
